@@ -1,7 +1,7 @@
 from abc import ABC,abstractmethod
 class SkolasDarbinieki(ABC): #Abstraktā klase
     def __init__(self,vards,uzvards): #Bāzes klase ar laukiem
-        self.vards= vards
+        self.vards= vardsa
         self.uzvards=uzvards
     @abstractmethod
     def apraksts(): #metode, kas būs visās apakš klasēs
